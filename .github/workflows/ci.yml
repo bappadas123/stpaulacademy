@@ -1,0 +1,10 @@
+name: hello
+on: 
+ workflow_dispatch: 
+jobs:
+ says-hello:
+  runs-on: ubuntu-latest
+  steps:
+    - name: say helolow
+      run: echo "hellow dosto"
+  
